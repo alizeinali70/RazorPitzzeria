@@ -7,8 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Forms\" />
-    <Folder Include="Pages\Checkout\" />
+    <Content Remove="Pages\Pizza.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Pizza.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Pizza.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Pizza.cshtml" />
   </ItemGroup>
 
 </Project>
