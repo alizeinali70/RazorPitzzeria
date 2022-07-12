@@ -4,13 +4,33 @@
 }
 
 <div class="col-12 col-lg-12">
-    <div class="row">
-        <div class="text-center">
-            <h1 class="display-4 text-capitalize text-black">Welcome To Razor Sharp Pizzas</h1>
-            <h2>Our great selections of Pizzas!!</h2>
-            <h4> Choose One, or try out Pizza Builder!! Then Order and Done!!</h4>
-            <h4> No need to give anyof your Details!!</h4>
-            <h4>We already know everything!!</h4>
+    <div class="text-center">
+        <h2 class="display-4 text-capitalize text-black">Our great selections of Pizzas!!</h2>
+        <h4> Choose One, or try out Pizza Builder!! Then Order and Done!!</h4>
+        <h4> No need to give anyof your Details!!</h4>
+        <h4>We already know everything!!</h4>
+        <p class="small text-end"> <i>Only one pizza per order</i></p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5 mt-5">
+                <div class="w-100 row bg-gray">
+                    <div class="col-4 p-0">
+                        <img src="~/img/pizza1.jpg" width="420" height="300" alt="Alternate Text" />
+                    </div>
+                    <div class="col-8">
+                        <div>
+                            <h3 class="text-start text-white"> Create Your Own Pizza</h3>
+                            <p class="text-start text-white"> Make Your Own Pizza With Our Pizza Maker!!</p>
+                            <a asp-area="" asp-page="Forms/CustomPizza" class="btn btn-primary float-start">Try Now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-5">
+                <img src="" class="w-100" asp-append-version="true" alt="Alternate Text" />
+                <a class="btn btn-success mt-1"></a>
+            </div>
         </div>
-        </div>
+    </div>
 </div>
